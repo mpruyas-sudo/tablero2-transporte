@@ -42,7 +42,7 @@ try:
         df_filtrado = df
 
     # 3. Seccion de Metricas Principales (KPIs)
-    st.subheader("?? Resumen del Periodo Seleccionado")
+    st.subheader("Resumen del Periodo Seleccionado")
     
     col1, col2, col3, col4, col5 = st.columns(5)
     
