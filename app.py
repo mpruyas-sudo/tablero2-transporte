@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Tablero de Transporte", layout="wide", page_icon="??")
 
 # Titulo principal
-st.title("Control de Viajes por Medio de Transporte DEMOSTRACION 2026-09-17")
+st.title("Control de Viajes por Medio de Transporte DEMOSTRACION DASHBOARD 2026-09-17")
 st.markdown("Analisis de la cantidad de viajes diarios segun el tipo de transporte publico.(archivo excel)")
 
 # 1. Cargar y preparar los datos
