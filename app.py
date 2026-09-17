@@ -55,7 +55,7 @@ try:
     st.markdown("---")
 
     # 4. Grafico de Evolucion Temporal
-    st.subheader("?? Evolucion Temporal por Medio de Transporte")
+    st.subheader("Evolucion Temporal por Medio de Transporte")
     
     # Preparar los datos para el grafico de lineas (indexado por fecha y sin la columna 'total')
     df_grafico = df_filtrado.set_index('indice_tiempo')[['colectivo', 'subte', 'tren', 'lancha']]
@@ -77,7 +77,7 @@ try:
 
     # 5. Visualizacion de los datos en bruto
     if st.checkbox("Mostrar tabla de datos detallada"):
-        st.subheader("?? Datos en Bruto")
+        st.subheader("Datos en Bruto")
         # Formatear la fecha para que se vea mas limpia en la tabla
         df_tabla = df_filtrado.copy()
         df_tabla['indice_tiempo'] = df_tabla['indice_tiempo'].dt.strftime('%Y-%m-%d')
